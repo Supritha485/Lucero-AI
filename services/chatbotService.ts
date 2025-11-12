@@ -1,4 +1,3 @@
-
 import { GoogleGenAI, Chat, GenerateContentResponse } from "@google/genai";
 
 let chat: Chat | null = null;
@@ -9,7 +8,7 @@ function getChatInstance(): Chat {
         chat = ai.chats.create({
             model: 'gemini-2.5-flash',
             config: {
-                systemInstruction: "You are a friendly and helpful AI chatbot. Your name was RuleBot, but you've been upgraded with a powerful AI model. Keep your responses concise and conversational.",
+                systemInstruction: "You are a friendly and helpful AI chatbot named Lucero AI. Your previous name was RuleBot, but you've been upgraded with a powerful AI model. Keep your responses concise and conversational.",
             }
         });
     }

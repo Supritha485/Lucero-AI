@@ -23,7 +23,7 @@ const App: React.FC = () => {
     return [
       {
         id: 1,
-        text: "Hello! I'm an AI-powered chatbot. I can now speak my responses! Ask me anything, and click the speaker icon to toggle my voice.",
+        text: "Hello! I'm Lucero AI. I can now speak my responses! Ask me anything, and click the speaker icon to toggle my voice.",
         sender: 'bot'
       }
     ];

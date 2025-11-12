@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SpeakerIcon from './SpeakerIcon';
 
@@ -11,7 +10,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ onClearChat, isTtsEnabled, onToggleTts }) => {
     return (
         <header className="flex items-center justify-between p-4 bg-gray-800 border-b border-gray-700 shadow-lg">
-            <h1 className="text-xl font-bold text-sky-400">AI Chatbot</h1>
+            <h1 className="text-xl font-bold text-sky-400">Lucero AI</h1>
             <div className="flex items-center space-x-4">
                  <button
                     onClick={onToggleTts}
